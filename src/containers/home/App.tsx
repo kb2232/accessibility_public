@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-
+import TablePage from '../pages/TablePage';
 const App = ():JSX.Element => {
   return (
-    <div className='home_container'>
-      <p>Hello world</p>
-    </div>
+    <main className='home_container'>
+      <h1>Welcome</h1>
+      <TablePage />
+    </main>
   );
 }
 
